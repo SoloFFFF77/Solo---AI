@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Solo AI",
+  "description": "A modern AI assistant app with a futuristic UI, featuring AI chat with voice support and an AI image and video generator, inspired by Manus AI.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}

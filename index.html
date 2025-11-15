@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solo AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'],
+            },
+            colors: {
+              'dark-bg': '#0D0B12',
+              'dark-card': '#1A1625',
+              'dark-accent': '#29243A',
+              'brand-blue': '#00AFFF',
+              'brand-purple': '#A700FF',
+              'brand-pink': '#F42D87',
+            },
+            boxShadow: {
+              'glow-blue': '0 0 20px rgba(0, 175, 255, 0.6), 0 0 30px rgba(0, 175, 255, 0.4)',
+              'glow-purple': '0 0 20px rgba(167, 0, 255, 0.6), 0 0 30px rgba(167, 0, 255, 0.4)',
+              'glow-orb': '0 0 40px rgba(167, 0, 255, 0.7), 0 0 60px rgba(0, 175, 255, 0.5)',
+            }
+          },
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.546.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0",
+    "firebase/app": "https://aistudiocdn.com/firebase@^12.4.0/app",
+    "firebase/auth": "https://aistudiocdn.com/firebase@^12.4.0/auth",
+    "firebase/": "https://aistudiocdn.com/firebase@^12.4.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-dark-bg bg-gradient-to-br from-dark-bg via-[#100E17] to-[#1A1625]">
+    <div id="root"></div>
+  </body>
+</html>
